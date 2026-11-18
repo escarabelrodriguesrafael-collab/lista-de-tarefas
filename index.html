@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Minhas Tarefas</title>
+  <link rel="stylesheet" href="Atv.css" />
+</head>
+<body>
+  <main>
+    <h1>📝 Minhas Tarefas</h1>
+    <div class="entrada">
+    <div class="filtros">
+  <button class="ativo" data-filtro="todas">Todas</button>
+  <button data-filtro="pendentes">Pendentes</button>
+  <button data-filtro="concluidas">Concluídas</button>
+</div> 
+        <input type="text" id="campo-tarefa" placeholder="O que precisa ser feito?" />
+      <button id="btn-adicionar">Adicionar</button>
+    </div>
+    <p id="contador"></p>
+    <ul id="lista-tarefas"></ul>
+    <button id="btn-limpar">Limpar concluídas</button>
+  </main>
+  <script src="Atv.js"></script>
+</body>
+</html>
